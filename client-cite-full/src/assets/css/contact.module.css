@@ -1,0 +1,46 @@
+.contact {
+    padding: 128px 0;
+}
+
+.contactBody {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contactBody h2 {
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    margin: 0 auto;
+}
+
+.contactBody p {
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 562px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:1040px) {
+    .contact{
+        padding: 50px 0;
+    }
+    .contactBody h2 {
+        text-align: center;
+    }
+
+    .contactBody p {
+        width: 100%;
+        text-align: center;
+    }
+}

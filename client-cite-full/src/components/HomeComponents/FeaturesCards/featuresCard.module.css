@@ -1,0 +1,43 @@
+.card {
+    background: #FFF;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    max-width: 405px;
+    max-height: 316px;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+.card:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card img {
+    width: 32px;
+    height: 27.921px;
+}
+
+.card h6 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.card p {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+}
+@media only screen and (max-width: 1025px){
+    .card{
+        max-width: 100%;
+        max-height: 100%;
+    }
+}

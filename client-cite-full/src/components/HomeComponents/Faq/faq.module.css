@@ -1,0 +1,140 @@
+.faq {
+    width: 772px;
+}
+
+.item {
+    border-bottom: 1px solid #ECECF1;
+    padding: 20px 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.number {
+    margin-right: 59px;
+    color: var(--Royal-Blue, #2405F2);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.question {
+    flex: 1;
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.icon {
+    fill: var(--Dark-blue, #282938);
+    opacity: 0.7;
+    width: 16px;
+    height: 16px;
+}
+
+.body {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 16px;
+    margin-left: 75px;
+    max-width: 624px;
+}
+
+@media only screen and (max-width:1040px) {
+
+    .faq {
+        width: 100%;
+    }
+
+    .header {
+        font-size: 22px;
+        line-height: 34px;
+    }
+
+    .number {
+        margin-right: 40px;
+        font-size: 22px;
+    }
+
+    .question {
+        font-size: 22px;
+    }
+
+    .body {
+        font-size: 17px;
+        margin-left: 60px;
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+
+    .header {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .number {
+        margin-right: 25px;
+        font-size: 20px;
+    }
+
+    .question {
+        font-size: 20px;
+    }
+
+    .body {
+        font-size: 16px;
+        margin-left: 45px;
+    }
+
+}
+
+@media only screen and (max-width:481px) {
+
+    .header {
+        align-items: flex-start;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .number {
+        margin-right: 15px;
+        font-size: 18px;
+    }
+
+    .question {
+        font-size: 18px;
+    }
+
+    .icon {
+        margin-left: 10px;
+    }
+
+    .body {
+        font-size: 15px;
+        line-height: 26px;
+        margin-left: 33px;
+    }
+
+}

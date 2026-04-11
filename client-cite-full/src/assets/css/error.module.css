@@ -1,0 +1,64 @@
+.errorContainer {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #1B1C2B;
+    padding: 20px;
+}
+
+.errorCode {
+    font-size: 140px;
+    font-weight: 700;
+    margin: 0;
+    font-family: Poppins;
+    letter-spacing: 5px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0)
+    }
+
+    50% {
+        transform: translateY(-10px)
+    }
+
+    100% {
+        transform: translateY(0)
+    }
+}
+
+s .errorTitle {
+    font-size: 36px;
+    margin-top: 10px;
+    font-family: Poppins;
+}
+
+.errorText {
+    max-width: 500px;
+    margin-top: 10px;
+    opacity: 0.9;
+    line-height: 1.6;
+    font-family: Poppins;
+}
+
+.errorBtn {
+    margin-top: 30px;
+    padding: 14px 32px;
+    color: #1B1C2B;
+    background: var(--Yellow, #FCD980);
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+    font-family: Poppins;
+}
+
+.errorBtn:hover {
+    background: #FDE4A6;
+    transform: translateY(-3px);
+}

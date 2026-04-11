@@ -1,0 +1,305 @@
+.portfolioDetails {
+    padding-top: 128px;
+}
+
+.detailsBody {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.detailsText {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.detailsText h6 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.detailsText h2 {
+    width: 646px;
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.detailsText p {
+    width: 817px;
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.7;
+}
+
+.portfolioCardDetail .detailCardImg {
+    display: flex;
+    padding: 60px 87px 65px 88px;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailsImg {
+    width: 888px;
+    height: 516px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info p {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.info p b {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.8;
+}
+
+.detailsBody hr {
+    opacity: 0.3;
+    background: #282938;
+}
+
+.detailsAboutContainer {
+    padding: 0 113px;
+}
+
+.aboutBody,
+.processBody {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.aboutBody {
+    padding-top: 96px;
+}
+
+.processBody {
+    padding-bottom: 128px;
+}
+
+.aboutBody h3,
+.processBody h3 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.aboutBody p,
+.processBody p {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+    margin-bottom: 12px;
+}
+
+.aboutBody ul,
+.processBody ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    padding-left: 20px;
+}
+
+.aboutBody ul li,
+.processBody ul li {
+    color: var(--Dark-blue, #282938);
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    list-style: disc;
+    opacity: 0.7;
+}
+
+.aboutCardBg {
+    display: flex;
+    padding: 42px 57px 43px 57px;
+    justify-content: center;
+    align-items: center;
+    margin: 64px 0;
+}
+
+.aboutCardBg img {
+    width: 728px;
+    height: 423px;
+    flex-shrink: 0;
+}
+
+@media only screen and (max-width: 1040px) {
+
+    .portfolioDetails,
+    .aboutBody {
+        padding: 50px 0;
+    }
+
+    .processBody {
+        padding: 0;
+    }
+
+    .detailsText h6 {
+        margin-top: 50px;
+    }
+
+    .detailsText h2 {
+        width: 100%;
+        font-size: 40px;
+        line-height: 56px;
+    }
+
+    .detailsText p {
+        width: 100%;
+    }
+
+    .detailsImg {
+        width: 100%;
+        height: auto;
+    }
+
+    .portfolioCardDetail .detailCardImg {
+        padding: 30px;
+    }
+
+    .info {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .detailsAboutContainer {
+        padding: 0 40px;
+    }
+
+    .aboutCardBg img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+
+    .detailsText h6 {
+        font-size: 20px;
+    }
+
+    .detailsText h2 {
+        font-size: 32px;
+        line-height: 44px;
+    }
+
+    .info p {
+        font-size: 20px;
+    }
+
+    .aboutBody h3,
+    .processBody h3 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .detailsAboutContainer {
+        padding: 0 20px;
+    }
+
+    .aboutCardBg {
+        padding: 25px;
+    }
+
+}
+
+
+@media only screen and (max-width:481px) {
+
+    .portfolioDetails {
+        padding: 1px 0;
+    }
+
+    .detailsBody {
+        gap: 30px;
+    }
+
+    .detailsText h6 {
+        font-size: 16px;
+    }
+
+    .detailsText h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .detailsText p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .info p {
+        font-size: 16px;
+    }
+
+    .aboutBody h3,
+    .processBody h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .aboutBody p,
+    .processBody p,
+    .aboutBody ul li,
+    .processBody ul li {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .aboutCardBg {
+        padding: 20px;
+        margin: 40px 0;
+    }
+
+}

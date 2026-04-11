@@ -1,0 +1,361 @@
+.aboutFirst {
+    padding: 128px 0;
+}
+
+.aboutFirstBody {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutFirstBodyLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.aboutFirstBodyLeft h6 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.aboutFirstBodyLeft h1 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px;
+    width: 595px;
+}
+
+.aboutFirstBodyLeft p {
+    color: var(--Dark-blue, #282938);
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+    width: 484px;
+    margin-bottom: 22px;
+}
+
+.whoweare {
+    padding: 80px 80px 0 80px;
+    background: #F4F5F5;
+}
+
+.whotop {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.whotop h6 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.whoBoxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.whoBoxes .box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.whoBoxes .box h3 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.whoBoxes .box p {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 515px;
+}
+
+.whoImg {
+    margin-top: 80px;
+}
+
+.process {
+    padding: 128px 0;
+}
+
+.processBody {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+.processHeading h2 {
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.processCards {
+    display: flex;
+    column-gap: 56px;
+}
+
+.mission {
+    background: var(--Accent, #EEF4FA);
+    padding: 128px 0;
+}
+
+.missionBody {
+    display: flex;
+    flex-direction: column;
+    row-gap: 96px;
+}
+
+.missionTop,
+.missionDown {
+    display: flex;
+    column-gap: 140px;
+}
+
+.missionText {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.missionText h6 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.missionText h3 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.missionText p {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+}
+
+.benefit {
+    padding: 128px 0;
+}
+
+.benefitHeading {
+    margin: 0 auto;
+    width: 630px;
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    padding-bottom: 48px;
+}
+
+.benefitCards {
+    display: flex;
+    column-gap: 32px;
+    justify-content: space-between;
+    padding-bottom: 48px;
+}
+
+.benefitLogos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefitLogos .logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.benefitLogos .logo h3 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.benefitLogos .logo p {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+}
+
+.team {
+    padding: 128px 0;
+    background: var(--Grey, #F4F6FC);
+}
+
+.teamHeading {
+    margin: 0 auto;
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    padding-bottom: 48px;
+}
+
+.teamCards {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1040px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    .aboutFirst,
+    .process,
+    .mission,
+    .benefit,
+    .team {
+        padding: 50px 0;
+    }
+
+    .aboutFirstBody {
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutFirstBodyLeft h6,
+    .aboutFirstBodyLeft h1,
+    .aboutFirstBodyLeft p {
+        text-align: center;
+        width: 100%;
+        line-break: normal;
+    }
+
+    .aboutFirstImg img {
+        width: 100%;
+    }
+
+    .whoweare {
+        padding: 50px;
+    }
+
+    .whotop {
+        gap: 20px;
+    }
+
+    .whoBoxes {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .whotop h6,
+    .whoBoxes .box h3,
+    .whoBoxes .box p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .whoImg img {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .processHeading h2 {
+        font-size: 35px;
+    }
+
+    .processCards {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .missionText {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .missionText h3 {
+        font-size: 24px;
+    }
+
+    .missionTop,
+    .missionDown {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .missionImg img {
+        width: 100%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    .benefitHeading {
+        width: 100%;
+        font-size: 35px;
+    }
+
+    .benefitCards,
+    .benefitLogos {
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+
+    .teamCards {
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+}

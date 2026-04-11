@@ -1,0 +1,21 @@
+.btnYellow {
+    color: #1B1C2B;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    display: inline-flex;
+    padding: 16px 56px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background: var(--Yellow, #FCD980);
+    border: none;
+    cursor: pointer;
+    transition:linear 0.5s;
+}
+
+.btnYellow:hover {
+    background: #FDE4A6;
+}

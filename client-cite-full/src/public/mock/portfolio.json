@@ -1,0 +1,180 @@
+[
+    {
+        "id": 1,
+        "title": "Template 1",
+        "category": "figma",
+        "img": "/images/filter1.png",
+        "bg": "linear-gradient(131deg,#F4EDE1 16.74%,#98B1C6 103.17%)",
+        "info": {
+            "client": "facebook.com",
+            "service": "Product Design",
+            "deliverable": "UI Screens, UX Flow & Prototype"
+        },
+        "about": {
+            "title": "About the project",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+            "list": [
+                "Lorem ipsum dolor sit amet",
+                "Quis nostrud exercitation ullamco",
+                "Duis aute irure dolor",
+                "Excepteur sint occaecat cupidatat"
+            ],
+            "img": "/images/detailAbout.png"
+        },
+        "process": {
+            "title": "How we do it",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+            "list": [
+                "Lorem ipsum dolor sit amet",
+                "Quis nostrud exercitation ullamco",
+                "Duis aute irure dolor",
+                "Excepteur sint occaecat cupidatat"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "title": "Template 2",
+        "category": "webflow",
+        "img": "/images/filter2.png",
+        "bg": "linear-gradient(131deg,#FFD3AF 16.74%,#4F56FF 103.17%)",
+        "info": {
+            "client": "facebook.com",
+            "service": "Product Design",
+            "deliverable": "UI Screens, UX Flow & Prototype"
+        },
+        "about": {
+            "title": "About the project",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "list": [
+                "Lorem ipsum dolor sit amet",
+                "Quis nostrud exercitation ullamco"
+            ],
+            "img": "/images/detailAbout.png"
+        },
+        "process": {
+            "title": "How we do it",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "list": [
+                "Lorem ipsum dolor sit amet",
+                "Quis nostrud exercitation ullamco"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "title": "Template 3",
+        "category": "figma",
+        "img": "/images/filter3.png",
+        "bg": "linear-gradient(131deg,#EEBCA7 16.74%,#C8C8C8 103.17%)",
+        "info": {
+            "client": "facebook.com",
+            "service": "Product Design",
+            "deliverable": "UI Screens, UX Flow & Prototype"
+        },
+        "about": {
+            "title": "About the project",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "list": [
+                "Lorem ipsum dolor sit amet",
+                "Quis nostrud exercitation ullamco"
+            ],
+            "img": "/images/detailAbout.png"
+        },
+        "process": {
+            "title": "How we do it",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "list": [
+                "Lorem ipsum dolor sit amet",
+                "Quis nostrud exercitation ullamco"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "title": "Template 4",
+        "category": "webflow",
+        "img": "/images/filter4.png",
+        "bg": "linear-gradient(131deg,#C2E7F2 16.74%,#98A4FF 103.17%)",
+        "info": {
+            "client": "facebook.com",
+            "service": "Product Design",
+            "deliverable": "UI Screens, UX Flow & Prototype"
+        },
+        "about": {
+            "title": "About the project",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "list": [
+                "Lorem ipsum dolor sit amet",
+                "Quis nostrud exercitation ullamco"
+            ],
+            "img": "/images/detailAbout.png"
+        },
+        "process": {
+            "title": "How we do it",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "list": [
+                "Lorem ipsum dolor sit amet",
+                "Quis nostrud exercitation ullamco"
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "title": "Template 5",
+        "category": "ui",
+        "img": "/images/filter5.png",
+        "bg": "linear-gradient(131deg,#C5BCFF 16.74%,#9BF6D5 103.17%)",
+        "info": {
+            "client": "facebook.com",
+            "service": "Product Design",
+            "deliverable": "UI Screens, UX Flow & Prototype"
+        },
+        "about": {
+            "title": "About the project",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "list": [
+                "Lorem ipsum dolor sit amet",
+                "Quis nostrud exercitation ullamco"
+            ],
+            "img": "/images/detailAbout.png"
+        },
+        "process": {
+            "title": "How we do it",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "list": [
+                "Lorem ipsum dolor sit amet",
+                "Quis nostrud exercitation ullamco"
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "title": "Template 6",
+        "category": "ui",
+        "img": "/images/filter6.png",
+        "bg": "linear-gradient(131deg,#D2D6FD 16.74%,#D6ACEA 103.17%)",
+        "info": {
+            "client": "facebook.com",
+            "service": "Product Design",
+            "deliverable": "UI Screens, UX Flow & Prototype"
+        },
+        "about": {
+            "title": "About the project",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "list": [
+                "Lorem ipsum dolor sit amet",
+                "Quis nostrud exercitation ullamco"
+            ],
+            "img": "/images/detailAbout.png"
+        },
+        "process": {
+            "title": "How we do it",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "list": [
+                "Lorem ipsum dolor sit amet",
+                "Quis nostrud exercitation ullamco"
+            ]
+        }
+    }
+]

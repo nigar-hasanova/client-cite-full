@@ -1,0 +1,25 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.input {
+    border-radius: 8px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    padding: 18px 32px;
+    color: var(--Grey, #F4F6FC);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.5;
+    background: #1C1E53;
+}
+
+.formBtnPrimary {
+    align-self: center !important;
+    padding-top: 12px;
+
+}

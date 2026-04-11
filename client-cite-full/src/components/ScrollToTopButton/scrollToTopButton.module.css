@@ -1,0 +1,28 @@
+.scrollTopBtn {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--Tint-blue, #1C1E53);
+    color: #FFF;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    z-index: 999;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scrollTopBtn:hover {
+    transform: translateY(-4px);
+}
+.topArr{
+    transform: rotate(-90deg);
+    width: 20px;
+    height: 20px;
+}

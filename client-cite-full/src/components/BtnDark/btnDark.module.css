@@ -1,0 +1,22 @@
+.btnDark {
+    display: flex;
+    width: 254px;
+    height: 64px;
+    padding: 15px 51px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 41px;
+    background: var(--Dark-blue, #282938);
+    color: var(--Grey, #F4F6FC);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    transition: linear 0.5s;
+}
+
+.btnDark:hover {
+    background: #535460;
+}

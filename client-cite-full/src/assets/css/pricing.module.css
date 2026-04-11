@@ -1,0 +1,57 @@
+.pricing {
+    padding: 128px 0;
+}
+
+.cardsHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 12px;
+    margin-bottom: 64px;
+}
+
+.cardsHeader h2 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.cardsHeader p {
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    width: 562px;
+}
+
+.pricingWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+@media only screen and (max-width: 1040px) {
+    .pricing {
+        padding: 50px 0;
+    }
+
+    .cardsHeader p {
+        width: 100%;
+    }
+
+    .cardsHeader h2 {
+        text-align: center;
+    }
+
+    .pricingWrapper {
+        flex-direction: column;
+    }
+}

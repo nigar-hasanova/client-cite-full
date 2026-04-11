@@ -1,0 +1,30 @@
+.benefitCard {
+    padding: 52px 32px 48px 48px;
+    background: var(--Grey, #F4F6FC);
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.benefitCard .benefitImg {
+    width: 32px;
+    height: 32px;
+}
+
+.benefitCard h6 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.benefitCard p {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}

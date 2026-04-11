@@ -1,0 +1,73 @@
+.teamCard {
+    background: #FFF;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.imgContainer {
+    position: relative;
+    width: 168px;
+    height: 168px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.imgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(348deg,
+            #5239FA 17.97%,
+            rgba(255, 255, 255, 0.00) 79.2%);
+    opacity: 0;
+    transition: 0.4s ease;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.imgContainer:hover .overlay {
+    opacity: 1;
+}
+
+.socials {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+
+.socials img {
+    width: 13px;
+    height: 12px;
+    cursor: pointer;
+}
+
+.teamCard h6 {
+    margin-top: 16px;
+    color: var(--b, #1D2130);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    min-width: 208px;
+}
+
+.teamCard p {
+    color: var(--b, #1D2130);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+}
