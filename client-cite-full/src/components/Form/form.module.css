@@ -42,22 +42,25 @@
     border: 1px solid rgba(0, 0, 0, 0.12);
 }
 
-.messageBox textarea {
-    display: flex;
-    width: 908px;
-    height: 138px;
-    padding: 18px 32px;
-    align-items: flex-start;
-    gap: 10px;
+
+.messageBox :global(.ql-container) {
+    width: 100%;
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.12);
-    color: #000;
+    margin-bottom: 16px;
+}
+
+.messageBox :global(.ql-editor) {
+    min-height: 138px;
+    padding: 18px 32px;
     font-family: Poppins;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 28px;
-    margin-bottom: 16px;
+    display: block !important;            
+}
+
+.messageBox :global(.ql-editor p) {
+    margin: 0;
 }
 
 .errorInput {
@@ -97,10 +100,6 @@
         column-gap: 24px;
     }
 
-    .messageBox textarea {
-        width: 100%;
-    }
-
 }
 
 @media only screen and (max-width:768px) {
@@ -117,11 +116,6 @@
     .formBox input,
     .formBox select {
         width: 100%;
-    }
-
-    .messageBox textarea {
-        width: 100%;
-        height: 120px;
     }
 
 }
@@ -142,12 +136,6 @@
     .formBox input,
     .formBox select {
         padding: 14px 18px;
-    }
-
-    .messageBox textarea {
-        padding: 14px 18px;
-        font-size: 14px;
-        height: 110px;
     }
 
 }

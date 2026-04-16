@@ -45,6 +45,17 @@ export default function Header() {
                         </li>
                         <li>
                             <NavLink
+                                to="/portfolio"
+                                onClick={() => setMenuOpen(false)}
+                                className={({ isActive }) =>
+                                    `menu-link ${isActive ? "active-link" : ""}`
+                                }
+                            >
+                                Portfolio
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink
                                 to="/features"
                                 onClick={() => setMenuOpen(false)}
                                 className={({ isActive }) =>
@@ -63,17 +74,6 @@ export default function Header() {
                                 }
                             >
                                 Pricing
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink
-                                to="/#faq"
-                                onClick={() => setMenuOpen(false)}
-                                className={() =>
-                                    `menu-link ${location.hash === "#faq" ? "active-link" : ""}`
-                                }
-                            >
-                                FAQ
                             </NavLink>
                         </li>
                         <li>

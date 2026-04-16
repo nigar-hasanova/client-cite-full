@@ -6,7 +6,7 @@ import { Helmet } from 'react-helmet-async';
 import Loader from '../Loader/Loader';
 import type { PortfolioDataType } from '../../types/portfolioDataType';
 import { useEffect, useState } from 'react';
-import axios from 'axios';
+import { getData } from '../../api/api';
 
 
 
@@ -23,7 +23,7 @@ export default function PortfolioDetails() {
         const fetchPortfolio = async () => {
             setLoading(true);
             try {
-                const response = await axios.get<PortfolioDataType[]>('/mock/portfolio.json');
+                const response = await getData<PortfolioDataType[]>('/mock/portfolio.json');
                 const selected = response.data.find(card => card.id === Number(id));
                 if (!selected) {
                     setError('Portfolio not found');
@@ -48,7 +48,7 @@ export default function PortfolioDetails() {
     return (
         <>
             <Helmet>
-                <title>Portfolio</title>
+                <title>{portfolio.title}</title>
             </Helmet>
             <section className={classes.portfolioDetails}>
                 <div className="container">

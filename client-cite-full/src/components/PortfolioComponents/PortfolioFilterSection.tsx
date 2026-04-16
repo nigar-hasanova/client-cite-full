@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import classes from '../../assets/css/portfolio.module.css';
 import BtnPrimary from '../BtnPrimary/BtnPrimary';
 import { useNavigate } from "react-router";
-import axios from "axios";
 import type { PortfolioDataType } from '../../types/portfolioDataType';
+import { getData } from "../../api/api";
 
 
 export default function PortfolioFilterSection() {
@@ -17,9 +17,7 @@ export default function PortfolioFilterSection() {
         const fetchData = async () => {
             setLoading(true);
             try {
-                const response = await axios.get<PortfolioDataType[]>('/mock/portfolio.json');
-                console.log('Response data:', response.data);
-
+                const response = await getData<PortfolioDataType[]>('/mock/portfolio.json');
                 setData(Array.isArray(response.data) ? response.data : []);
                 setError(null);
             } catch (err) {
