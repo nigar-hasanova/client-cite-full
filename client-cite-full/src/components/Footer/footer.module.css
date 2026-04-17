@@ -164,6 +164,11 @@
         text-align: center;
     }
 
+    .footerYellowBox .footerEmail h6,
+    .footerYellowBox .footerCall h6 {
+        text-align: center;
+    }
+
     .copyrightRight {
         display: none;
     }

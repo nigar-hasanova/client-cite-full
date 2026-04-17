@@ -15,6 +15,5 @@ export default function BtnDark({ title, disabled, type = 'button' }: Props) {
         >
             {title}
         </button>
-
     )
 }
