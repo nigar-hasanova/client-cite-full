@@ -160,11 +160,15 @@
 @media only screen and (max-width:1040px) {
 
     .blog {
-        padding: 100px 0;
+        padding: 50px 0;
     }
 
     .blogFirst {
-        padding-bottom: 100px;
+        padding-bottom: 50px;
+    }
+
+    .blogDetail {
+        padding: 50px 0;
     }
 
     .blogFirst h2 {
@@ -201,6 +205,10 @@
         line-height: 24px;
     }
 
+    .blogDetailsText .text2 ul li{
+        font-size: 14px;
+        line-height: normal;
+    }
 }
 
 @media only screen and (max-width:768px) {
@@ -235,7 +243,12 @@
 
     .blogDetailsText .text h3 {
         font-size: 30px;
-        line-height: 42px;
+        line-height: normal;
+    }
+
+    .blogDetailsText .text2 h3 {
+        font-size: 30px;
+        line-height: normal;
     }
 
 }

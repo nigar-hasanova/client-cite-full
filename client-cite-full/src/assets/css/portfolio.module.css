@@ -178,6 +178,11 @@
         width: 100%;
     }
 
+    .biuldBody h2 {
+        font-size: 30px;
+        line-height: normal;
+    }
+
     .filters {
         flex-wrap: wrap;
         row-gap: 10px;
